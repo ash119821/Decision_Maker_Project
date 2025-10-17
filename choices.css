@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.choices-container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 40px 60px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.choice-input {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  background-color: #ff4757;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff6b81;
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px black;
+}
